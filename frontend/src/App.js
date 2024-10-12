@@ -7,7 +7,7 @@ import AddUserForm from './components/AddUserForm';
 import './App.css'; // Import the CSS file
 
 const socket = io('http://localhost:5000');
-const API_URL = process.env.URL;
+const API_URL = process.env.B_URL;
 const App = () => {
     const [users, setUsers] = useState([]);
     const [selectedUser, setSelectedUser] = useState(null);
