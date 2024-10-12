@@ -7,7 +7,7 @@ import AddUserForm from './components/AddUserForm';
 import './App.css'; // Import the CSS file
 
 const socket = io('http://localhost:5000');
-
+const API_URL = process.env.URL;
 const App = () => {
     const [users, setUsers] = useState([]);
     const [selectedUser, setSelectedUser] = useState(null);
@@ -23,7 +23,7 @@ const App = () => {
     }, []);
 
     const fetchUsers = async () => {
-        const response = await axios.get('http://localhost:5000/api/users');
+        const response = await axios.get(`${process.env.API_URL}/users`);
         setUsers(response.data);
     };
 
@@ -34,7 +34,7 @@ const App = () => {
 
     const handleClaimPoints = async () => {
         if (selectedUser) {
-            await axios.post('http://localhost:5000/api/claim', { userId: selectedUser });
+            await axios.post(`${process.env.API_URL}/api/claim`, { userId: selectedUser });
         }
     };
 
