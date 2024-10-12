@@ -12,7 +12,7 @@ const Leaderboard = ({ users, onRemoveUser }) => {
                         <li key={user._id} className="leaderboard-item">
                             <span className="rank">{index + 1}.</span> {user.name} - {user.totalPoints} Points
                             {/* Add the delete button */}
-                            <button onClick={() => onRemoveUser(user._id)} className="delete-button">d</button>
+                            <button onClick={() => onRemoveUser(user._id)} className="delete-button">Delete</button>
                         </li>
                     ))}
             </ul>
