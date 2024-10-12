@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = process.env.URL;
 
 export const fetchUsers = () => axios.get(API_URL);
 export const claimPoints = (userId) => axios.post(`${API_URL}/claim`, { userId });
