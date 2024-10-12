@@ -25,7 +25,7 @@ mongoose.connect('mongodb+srv://fazilch05:fazil6126@cluster0.kjdok.mongodb.net/?
     .catch(err => console.log(err));
 
 app.use('/api', userRoutes);
-
-server.listen(5000, () => {
+const port = process.env.PORT || 5000;
+server.listen(port, () => {
     console.log('Server is running on port 5000');
 });
