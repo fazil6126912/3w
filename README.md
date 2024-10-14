@@ -22,7 +22,7 @@ This is a Full Stack React application for a leaderboard system. The app allows 
 
 ## Demo
 
-You can view the demo of the project [here]([https://drive.google.com/file/d/1JHDOuzgPtxsqDYaHx8MNurXxD856Sdwl/view?usp=sharing]).
+You can view the demo of the project [here]([https://youtu.be/bG6kplz9ahs]).
 
 ## Technologies Used
 
