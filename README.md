@@ -20,9 +20,12 @@ This is a Full Stack React application for a leaderboard system. The app allows 
 - Persist user data with a connected backend
 - Responsive design
 
-## Demo
-
-You can view the demo of the project [here]([https://youtu.be/bG6kplz9ahs]).
+## Watch the Demo of this project
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=bG6kplz9ahs">
+    <img src="https://i9.ytimg.com/vi/bG6kplz9ahs/sddefault.jpg?sqp=CLzTtLgG-oaymwEmCIAFEOAD8quKqQMa8AEB-AGACYAC0AWKAgwIABABGBMgRih_MA8=&rs=AOn4CLD6foC5R_4E0YcksTKUdZfRbMLMEw" alt="Watch the video" />
+  </a>
+</div>
 
 ## Technologies Used
 
